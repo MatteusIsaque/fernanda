@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html,
+body {
+  color: #ffcdb2;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffcdb2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c1f41;
+  border-radius: 20px;
+}
+
+
+
+button{
+  cursor: pointer;
+}
+
+p{
+  color: #6d6875  ;
+  font-size: 1.6rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 5rem;
+  margin: -10px 0px;
+  color: #7c1f41;
+}
+
+h2{
+  color: #7c1f41;
+  font-size: 3rem;
+}
+
+h3{
+  color: #7c1f41;
+  font-size: 2rem;
+}
+
+table{
+  background: #f7f7f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+thead{
+  background: #ffcdb2;
+  width: 100%;
+  padding: 10px 0;
+}
+
+thead th{
+  font-size: 2.5rem;
+  color: #121212;
+  padding: 3px 0px;
+}
+
+tbody{
+  color: #121212;
+}
+
+tbody th {
+  font-size: 4.5rem;
+}
+
+span{
+  font-size: 2rem;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+tbody td{
+  font-size: 1.5rem;
+  border-bottom: 0.2px #121212 dotted;
+  padding: 5px 0px;
+}
+
+tbody tr:last-child td{
+  padding: 8px 0px;
+}
+
+tbody tr {
+  padding: 20px;
+}
+
+td:first-child{
+  margin-top: 40px;
+}
+
+td:last-child{
+  margin-bottom: 40px;
+  border: none;
+}
+
+footer{
+  padding: 0px 10%;
+  justify-content: space-between;
+  display: flex;
+}
+
+footer > div:first-child {
+  padding: 50px 50px 50px 0px;
+}
+
+footer > div:last-child {
+  padding: 50px 0px 50px 50px;
+}
+
+
+@media (max-width: 1260px) {
+  thead th {
+    font-size: 2rem;
+  }
+
+  tbody th{
+    font-size: 3.5rem;
+  }
+
+  h2{
+    font-size: 1.8rem;
+  }  
+}
+
+@media (max-width: 950px){
+  thead th{
+    font-size: 1.5rem;
+  }
+
+  tbody tr{
+    padding: 0px 20px;
+  }
+
+  tbody th{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  span{
+    font-size: 2rem;
+  }
+
+  Link{
+    cursor: pointer;
+  }
+
+  button{
+    padding: 5px 10px !important;
+
+  }
+
+  footer{
+    padding: 0px 5%;
+    flex-direction: column;
+  }
+
+  footer > div {
+    padding: 25px !important;
+  }
+
+  thead tr th:last-child{
+    font-size: 1rem !important;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 750px){
+
+  tbody th{
+    font-size: 5rem;
+  }
+}
+
+@media(max-width:365px){
+    h1{
+      font-size: 4rem;
+    }
+  }

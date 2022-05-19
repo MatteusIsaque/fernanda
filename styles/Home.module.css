@@ -1,0 +1,350 @@
+.firstComponent{
+  background-image: url(./../img/Renata-fernandes-social-media.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+} 
+
+.conteudoFirst {
+  z-index: 200;
+  position: absolute;
+  color: #191919;
+  margin: 40vh 10vw;
+
+}
+
+.conteudoFirst > p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #121212;
+}
+
+.conteudoFirst > button {
+  background-color: #7c1f41;
+  color: white;
+  padding: 15px 50px !important;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;  
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.twoComponent{
+  margin: 10vh 0px;
+  background: #ffcdb2;
+  padding: 5vh 10%;
+}
+
+.twoComponent p {
+  color: #121212;
+}
+
+.threeComponent{
+  background-color: #ffcdb2;
+  padding: 10vh 10%;
+}
+
+.threeComponent h2{
+  margin: 50px 50px 20px 20px;
+}
+
+.itensThree{
+  display: flex;
+  justify-content: space-between  ;
+}
+
+.itensThree h3{
+  margin: 20px 0px 0px;
+}
+
+.itensThree div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 15px 25px;
+  border: #7c1f41 solid 1px;
+  border-radius: 25px;
+}
+
+.itensThree div p {
+  line-height: 20px;
+  color: #121212;
+}
+
+.button {
+  background: #7c1f41;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 15px 50px !important;
+  border-radius: 5px;
+  margin: 20px 0px;
+  transition: 0.5s;
+  cursor: pointer;
+
+  transition: 1s
+}
+
+.button:hover{
+  filter: brightness(0.9);
+  transition: 0.5s;
+}
+
+.FourOptionPromo{
+  color: #121212;
+  margin: 150px 9%;
+  display: flex;
+}
+
+.FourOptionPromo table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #ffcdb2;
+  margin: 0 20px;
+}
+
+.BtnForm {
+  margin: 30px 0px;
+  border: solid #ffcdb2 0.4px;
+  background: #ffcdb2;
+  color: #121212;
+  border-radius: 5px;
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.BtnForm:hover {
+  filter: brightness(0.9);
+
+  transition: 0.4s;
+}
+
+.Direitos{
+  background: #ffcdb2;
+  text-align: center;
+  color: #7c1f41;
+}
+
+.FernandaBio{
+  margin: 110vh 10% 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TextoBio{
+  max-width:55vw;
+  padding-left:  50px;
+}
+
+@media (max-width: 950px) {
+  .FourOptionPromo{
+    margin: 50px 4%;
+  }
+  .threeComponent{
+    padding: 10vh 5%;
+  }
+}
+
+
+@media(max-width: 768px){
+  .FourOptionPromo{
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .FourOptionPromo table{
+    margin: 50px;
+  }
+
+  .itensThree{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FourOptionPromo{
+    margin: 25px 4%;
+  }
+
+  .threeComponent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .threeComponent h2 {
+    margin: 10px;
+  }
+
+  .BtnForm, .btnUnico{
+    padding: 15px 100px !important;
+  }
+}
+
+@media (max-width:700px) {
+  .firstComponent{
+    background-image: url(./../img/celulaR.jpg);
+    width: 100% !important;
+  } 
+
+  .conteudoFirst{
+    margin: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 20vh;
+  }
+
+  .conteudoFirst button{
+    max-width: 339px;
+  }
+
+  .conteudoFirst p {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+
+
+  .FernandaBio{
+    margin: 100vh 10% 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .TextoBio{
+    padding: 0px;
+    margin: 40px 0px;
+    text-align: center;
+    max-width:90vw;
+    
+  }
+}
+
+.PlanoDestaque{
+  -webkit-box-shadow: 0px 0px 38px -15px rgba(123,123,123,1);
+-moz-box-shadow: 0px 0px 38px -15px rgba(123,123,123,1);
+box-shadow: 0px 0px 38px -15px rgba(123,123,123,1);
+border-color: #7c1f41 !important;
+}
+
+.PlanoDestaque thead{
+  background-color: #7c1f41;
+
+}
+
+.PlanoDestaque thead tr th{
+  color: white;
+}
+
+.btnUnico{
+  margin: 30px 0px;
+  padding: 15px 50px;
+  border: solid #7c1f41 1px;
+  border-radius: 3px;
+  transition: 0.4s;
+  font-weight: 500;
+  color: white;
+  background-color: #7c1f41;
+}
+
+.btnUnico:hover{
+  filter:brightness(0.9);
+}
+
+@media(max-width:365px){
+  
+.conteudoFirst {
+  margin: 1vh auto;
+  max-width: 319px;
+}
+}
+
+
+.HeaderPolitica{
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 40px;
+}
+
+.permição{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: - calc(10% - 20px);
+  width: 100%;
+  max-width: 90vw;
+  height: 10%;
+  z-index: 2000;
+  border-radius: 10px;
+  margin: 0px 50px;
+  background-color:#f2f2f2;
+  z-index: 2000;
+  animation: popup 3s ease-in-out forwards;
+}
+
+.permição p {
+  padding: 0px 10px;
+}
+
+.permição button{
+padding: 10px 20px;
+margin: 0px 20px;
+}
+
+@media (max-width:750px){
+  .permição{
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0px 5%;
+    height: 20%;
+    animation: popup 3s;
+  }
+
+  .permição p{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .permição button{
+    width: 90%;
+    margin: 10px;
+    padding: 8px;
+  }
+}
+
+@keyframes popup {
+  0%{  bottom: - calc(10% - 20px);}
+  100%{  bottom: calc(5% - 20px);}
+}
+
+.faltaDePagamento{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.faltaDePagamento p:first-child{
+  font-size: 3rem;
+}
